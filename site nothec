@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTech</title>
+    <link rel="shortcut icon" href="logo.png">
+
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+    <style>
+        #body {
+            background-image: url(im5.jpg);
+            background-size: cover;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #ente {
+            position: fixed;
+            background-color: white;
+            height: 150px;
+            margin-top: 30px;
+            padding-top: 40px;
+            
+        }
+
+        #menu {
+            margin-left: 500px;
+            font-size: 20pt;
+            
+        }
+
+        .bacgr {
+           font-size: 30pt;
+            height: 500px;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 70px;
+            color: white;
+        }
+
+        .nos {
+            text-decoration: none;
+            color: white;
+            font-size: 50pt;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #nos {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #part {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        #bb {
+            background-color: black;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+
+        }
+
+        #form {
+            width: 500px;
+            height: 500px;
+            padding: 20px;
+            margin: 80px;
+        }
+        #btn {
+            width: 300px;
+            border-radius: 20%;
+            background-color: rgb(0, 17, 255);
+            margin-left: 680px;
+            height: 80px;
+            color: #fff;
+
+        }
+
+        #f {
+            width: 1000px;
+            height: 50px;
+            margin: 10px;
+            margin-left: 0px;
+
+        }
+
+        #APPRO {
+            background-size: cover;
+            height: 500px;
+            color: rgb(49, 115, 238);
+        }
+
+        #ap {
+            text-align: center;
+            color: #f1f1f1;
+        }
+
+        #nous {
+            color: black;
+        }
+
+        footer {
+            flex-shrink: 0;
+            border-top: 1px dashed #000;
+            width: 100%;
+            background: #f1f1f1;
+            color: #333;
+
+        }
+
+        .presentation {
+            text-align: center;
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+
+        .pay {
+            text-align: center;
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+
+        .contact {
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .social {
+            display: flex;
+            font-size: x-large;
+            margin: 0 auto;
+            width: 100px;
+        }
+
+        .social i {
+            padding: 5px;
+        }
+
+        .log {
+            text-align: center;
+        }
+
+        .pied {
+            background-color: danger;
+        }
+        #roo{
+            background-image: url(video.jpg);
+            background-size: cover;
+        }
+        #noss{
+            color: #f1f1f1;
+            font-size: 20pt;
+            text-align: center;
+        }
+        #n{
+            color: #f1f1f1;
+        }
+        #nous , 
+        #nn  {
+            color: #f1f1f1;
+        }
+        .photo{
+            width: 100%;
+            height: 400px;
+            margin: 0;
+            display: inline-block;
+            background-size: cover;
+        }
+        .bouton{
+            position: absolute;
+            width: 70px;
+            cursor: pointer;
+            top: 150px;
+        }
+
+
+        *,
+        ::before,
+        ::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fff;
+
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+
+        }
+
+        .slide img {
+            height: 800px;
+            width: 100%;
+            display: none;
+
+        }
+
+        img.active {
+            display: block;
+            animation: fade 0.8s;
+        }
+
+        @keyframes fade {
+            form {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .cont-btn {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 10px 10px black;
+            justify-content: center;
+            display: flex;
+            color: #fff;
+        }
+
+        .btn-nav {
+            font-size: 50px;
+            margin: 0 15px;
+            cursor: pointer;
+        }
+        #myform{
+            width: 60%;
+            margin-left: 300px;
+        }
+        #messs{
+            height: 200px;
+            width: 1000px;
+        }
+        #p{
+            font-size: 20pt;
+        }
+        #h{
+            font-size: 60pt;
+        }
+
+        #myforme {
+            margin-left: 400px;
+        }
+
+        .nom {
+
+            width: 700px;
+            height: 100;
+        }
+        .mess{
+            height: 150px;
+            width: 700px;
+        }
+        #butt{
+            background: blue;
+            color: aliceblue;
+            width: 200px;
+            height: 100px;
+            border-radius: 30%;
+            margin-left: 220px;
+        }
+    </STyle>
+</head>
+
+<body id="body">
+
+    
+    <section>
+        <div class="container-fluid">
+          <div id="carrousel">
+            <div id="container">
+
+            </div>
+            <img src="./Bouton-direction.png" class="bouton" id="droit" alt="">
+            <img src="./Bouton-direction.png" class="bouton" id="gauche" alt="">
+          </div>
+        </div> 
+      </section>
+    <div >
+        <div >
+
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid" id="ente">
+                        <img src="logo.png" height="100px">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav" id="menu">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#noss">Nos service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#fot">A propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#cont">contactez nous</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="conyainer">
+            <div class="slide">
+                <img class="active" src="im1.jpg">
+                <img src="im2.jpg">
+                <img src="im3.jpg">
+                <img src="im4.jpg">
+                <img src="im6.jpg">
+                <img src="im7.jpg">
+                <img src="imag.jpg">
+            </div>
+            <div class="cont-btn">
+                <div class="btn-nav left">
+                    <<< </div>
+                        <div class="btn-nav right"> >>> </div>
+                </div>
+            </div>
+    
+        <div class="bacgr">
+            <h1> <strong> <i>Notre mission est de contribuer à la transformation digitale de l'Afrique.</i></strong>
+            </h1>
+            <br>
+            <br>
+            <h4 id="nous"> Nous proposons des solutions numériques innovantes axées sur <br> secteurs clés du
+                développement à
+                savoir la santé, l’agriculture, <br>l’éducation, l’environnement et les services.</h4>
+        </div>
+        <div>
+            <h1 id="noss">Nos service</h1>
+        </div>
+        <div class="card-group" id="nos">
+            <div class="card">
+                <img src="im1.JPG" class="card-img-top" height="350px">
+                <div class="card-body">
+                    <h2 class="card-title">développement Web</h2>
+                    <p class="card-text">Nous sommes specialisé dans la conception et hebergement de site web</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="reseaux.jpg" class="card-img-top" height="350px">
+                <div class="card-body">
+                    <h2 class="card-title">Réseaux</h2>
+                    <p class="card-text">Novatech est aussi espécialisé dans le résautage</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="video.jpg" class="card-img-top" height="350px">
+                <div class="card-body">
+                    <h2 class="card-title">viseoconference</h2>
+                    <p class="card-text">Novatech est aussi espécialisé dans le cablage de viséoconférence .Pour tout
+                        vos séminaire,conférence et réunion,Novatech met à votre disposition des expère pour le cablage
+                        de viséoconférence</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+        <div class="row" id="roo">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="logo2.jpg" height="600px" width="400px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" id="accor">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row" id="APPRO">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h1 class="accordion-header" id="headingOne h">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Nos valeurs
+                                            </button>
+                                        </h1>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p id="p"> Passion, Qualité, Disponibilité, Innovation, Travail et Intégrité,
+                                                    notre
+                                                    équipe jeune et
+                                                    dynamique œuvre sans relâche pour transformer vos idées en
+                                                    véritables
+                                                    projets concrets à fort
+                                                    impact.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h1 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Notre vision
+
+                                            </button>
+                                        </h1>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p id="p"> Devenir votre partenaire technologique fiable et durable en vue de
+                                                    vous
+                                                    apporter des solutions
+                                                    innovantes et efficaces pour tous vos besoins et problèmes dans le
+                                                    domaine des TICs.
+                                                <p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h1 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Notre mission
+
+                                            </button>
+                                        </h1>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p id="p"> Contribuer à la transformation digitale de l’Afrique en proposant
+                                                    des
+                                                    solutions numériques
+                                                    innovantes axées sur les secteurs clés du développement à savoir la
+                                                    santé, l’agriculture,
+                                                    l’éducation, l’environnement et les services.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="ap">
+            <h3 id="cont">Contactez-nous</h3>
+        </div>       
+        
+    <form action="traitement.php" method="post" id="myforme">
+        <label for="usermane"></label>
+        <input type="text" name="username" placeholder="Nom et Prénom" id="usernam" class="nom">
+        <br>
+        <span id="erro"></span>
+        <br>
+
+
+        <label for="usermane"></label>
+        <input type="text" name="username"  placeholder="Email" id="usernamee" class="nom">
+        <br>
+        <span id="errore"></span>
+        <br>
+
+<label for="usermane"></label>
+<input type="text" name="username" placeholder="Votre message" id="usernamee" class="mess">
+<br>
+<span id="errore"></span>
+<br>
+
+<button type="submit" id="butt">Envoyer</button>
+
+</form>
+    </div>
+
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d31032.163115309355!2d2.101084277950692!3d13.53434016533131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d13.516722!2d2.1404592!4m5!1s0x11da9f940569cead%3A0x91f5f8ebd4598cf3!2sNOVATECH%2C%20Niamey!3m2!1d13.5508732!2d2.0883339999999997!5e0!3m2!1sfr!2sne!4v1649774434955!5m2!1sfr!2sne"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+        <footer class="pied" id="fot">
+            <div class="log">
+                <img src="logo.png" class="logo">
+            </div>
+            <p class="presentation">NOVATECH Niger est une entreprise Numérique spécialisée dans les Services Réseaux,
+                Serveurs Cloud, Développement Web et Mobile, Formations & Certifications, Énergie, Électronique et
+                Consulting.</p>
+
+            <div class="pay">
+                <p>Niamey, Niger</p>
+            </div>
+            <br>
+            <div class="contact">
+                <p>Cel : +227 91 01 22 12</p>
+                <p>Email : contact@novatech.ne</p>
+                <br>
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+    </div>
+
+    </div>
+    </div>
+
+    <script>
+
+let myform = document.getElementById('myforme')
+        myform.addEventListener('submit', function (e) {
+            let myinput = document.getElementById('usernam')
+
+
+            if (myinput.value.trim() == "") {
+                let myerro = document.getElementById('erro');
+                myerro.innerHTML = "le champs usermane est requis.";
+                myerro.style.color = "red"
+                e.preventDefault();
+
+            }
+        })
+        myform.addEventListener('submit', function (e) {
+            let myinput = document.getElementById('usernamee')
+
+
+            if (myinput.value.trim() == "") {
+                let myerrore = document.getElementById('errore');
+                myerrore.innerHTML = "le champs usermane est requis.";
+                myerrore.style.color = "red"
+                e.preventDefault();
+
+            }
+        })
+
+    
+
+
+          const items = document.querySelectorAll('img');
+            const nbslide = items.length;
+            const suivant = document.querySelector('.right');
+            const precedent = document.querySelector('.left');
+            let count = 0;
+
+            function slideSuivante() {
+                items[count].classList.remove('active');
+                if (count < nbslide- 1) {
+                    count++;
+                } else {
+                    count = 0;
+                }
+                items[count].classList.add('active');
+                console.log(count);
+
+            }
+            suivant.addEventListener('click',slideSuivante)
+
+
+            function slidePrecedent(){
+                items[count].classList.remove('active');
+
+                if(count < nbslide -1){
+                    count++;
+                }else {
+                    count = 0;
+                }
+
+                items[count].classList.add('active')
+            }
+            suivant.addEventListener('click', slideSuivante)
+    </script>
+</body>
+
+</html>
